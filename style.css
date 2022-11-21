@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #252525;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+.container {
+    margin: auto;
+    width: 1440px;
+    height: 3329px;
+    background-color: #004445;
+    position: relative;
+}
+.header {
+    background-color: #021C1E;
+    position: absolute;
+    width: 1440px;
+    height: 93px;
+}
+.logo {
+    position: absolute;
+    width: 247px;
+    height: 44px;
+    left: 52px;
+    top: 22px;
+}
+.nav ul {
+    list-style-type: none;
+    position: absolute;
+    width: 954px;
+    height: 33px;
+    left: 429px;
+    top: 38px;
+    text-align: center;
+}
+.nav li {
+    float: left;
+}
+li a {
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+a:hover {
+    color: #375e97;
+}
+.search {
+    position: absolute;
+    width: 228px;
+    height: 27px;
+    background: white;
+    border-radius: 50px;
+    display: flex;
+    padding: 1px 15px;
+    border-style: none;
+}
+.home img {
+    position: absolute;
+    width: 1440px;
+    height: 754px;
+    left: 0px;
+    top: 93px;
+}
+.home h1 {
+    position: absolute;
+    width: 515px;
+    height: 114px;
+    left: 115px;
+    top: 265px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+}
+.home p {
+    position: absolute;
+    width: 526px;
+    height: 114px;
+    left: 115px;
+    top: 397px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+.button1 {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    width: 223px;
+    height: 53px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    color: black;
+    padding-top: 10px;
+}
+.btn-explore {
+    position: absolute;
+    left: 214px;
+    top: 600px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.12em;
+    justify-items: center;
+}
+.btn-video {
+    position: absolute;
+    left: 468px;
+    top: 600px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    letter-spacing: 0.12em;
+    justify-items: center;
+}
+.cover {
+    background-image: url(img/foto1.svg);
+    position: absolute;
+    width: 385px;
+    height: 468px;
+    left: 960px;
+    top: 229px;
+}
+.objek h1 {
+    position: absolute;
+    width: 281px;
+    height: 58px;
+    left: 58px;
+    top: 874px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.objek h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ob1 {
+    position: absolute;
+    width: 190px;
+    height: 36px;
+    left: 501px;
+    top: 959px;
+}
+.ob2 {
+    position: absolute;
+    width: 287px;
+    height: 36px;
+    left: 690px;
+    top: 1350px;
+}
+.objek p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.ob-isi1 {
+    position: absolute;
+    width: 873px;
+    height: 319px;
+    left: 514px;
+    top: 995px;
+}
+.ob-isi2 {
+    position: absolute;
+    width: 866px;
+    height: 319px;
+    left: 58px;
+    top: 1386px;
+}
+.ob-img1 {
+    position: absolute;
+    width: 432px;
+    height: 278px;
+    left: 58px;
+    top: 959px;
+}
+.ob-img2 {
+    position: absolute;
+    width: 431px;
+    height: 278px;
+    left: 960px;
+    top: 1350px;
+}
+.objek a {
+    text-decoration: none;
+    color: #375e97;
+}
+.akomodasi {
+    position: absolute;
+    width: 1440px;
+    height: 656px;
+    top: 1720px;
+    background-color: #2C7873;
+}
+.akomodasi h1 {
+    position: absolute;
+    width: 365px;
+    height: 58px;
+    top: 20px;
+    left: 58px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.akomodasi h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.kolom {
+    background: #375e97;
+    margin: 90px auto 0px;
+    width: 1220px;
+    height: 500px;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border-radius: 5px;
+}
+.card {
+    width: 393px;
+    height: 460px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+}
+.img-akomodasi1 {
+    background-image: url(img/akomo1.svg);
+    width: 377px;
+    height: 218px;
+    margin: auto;
+}
+.img-akomodasi2 {
+    background-image: url(img/akomo2.svg);
+    width: 377px;
+    height: 218px;
+    margin: auto;
+}
+.img-akomodasi3 {
+    background-image: url(img/akomo3.svg);
+    width: 377px;
+    height: 218px;
+    margin: auto;
+}
+.akomodasi h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    padding: 5px;
+}
+.akomodasi a {
+    text-decoration: none;
+    color: black;
+}
+.akomodasi a:hover {
+    color: #2C7873;
+}
+.akomodasi p {
+    text-align: justify;
+    padding: 3px;
+}
+.price {
+    padding: 5px;
+}
+.akomodasi button {
+    margin-left: 140px;
+    position: absolute;
+    width: 133px;
+    height: 31px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border-style: none;
+    text-align: center;
+    justify-content: center;
+}
+.akomodasi button:hover {
+    color: #375e97;
+}
+.kontak {
+    position: relative;
+    width: 1440px;
+    height: 651px;
+    left: 0px;
+    top: 2419px;
+    background: rgba(254, 244, 244, 0.6);
+}
+.kontak h1 {
+    position: absolute;
+    width: 365px;
+    height: 58px;
+    left: 911px;
+    top: 24px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+iframe {
+    position: absolute;
+    width: 618px;
+    height: 534px;
+    top: 50px;
+    left: 50px;
+}
+.right {
+    position: absolute;
+    left: 782px;
+    top: 70px;
+}
+form {
+    display: inline-block;
+    border: none;
+}
+.kontak input,
+        textarea {
+    width: 560px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    border: none;
+    display: flex;
+    margin: 15px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.kontak button {
+    width: 100px;
+    height: 35px;
+    left: 661px;
+    top: 3611px;
+    color: #000C03;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    background: #D9D9D9;
+    border-radius: 30px;
+    border: none;
+}
+.kontak button:hover {
+    color: #375e97;
+}
+.contentfooter {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.judul-footer {
+    position: absolute;
+    width: 245px;
+    height: 71px;
+    left: 46px;
+    top: 3074px;
+    color: #FFFFFF;
+}
+.isi-judul {
+    position: absolute;
+    width: 245px;
+    height: 136px;
+    left: 46px;
+    top: 3150px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.explore h3 {
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    left: 400px;
+    top: 3074px;
+    color: #FFFFFF;
+}
+.isi-explore {
+    position: absolute;
+    width: 233px;
+    height: 210px;
+    left: 400px;
+    top: 3150px;
+}
+.isi-explore a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: block;
+}
+.isi-explore a:hover {
+    color: #375e97;
+}
+.visit h3 {
+    position: absolute;
+    width: 62px;
+    height: 42px;
+    left: 700px;
+    top: 3074px;
+    color: #FFFFFF;
+}
+.isi-visit {
+    position: absolute;
+    width: 387px;
+    height: 88px;
+    left: 700px;
+    top: 3150px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.follow h3 {
+    position: absolute;
+    width: 87px;
+    height: 42px;
+    left: 1198px;
+    top: 3074px;
+    color: #FFFFFF;
+}
+.isi-follow {
+    position: absolute;
+    width: 149px;
+    height: 185px;
+    font-size: 40px;
+    left: 1230px;
+    top: 3150px;
+}
+.isi-follow a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.isi-follow a:hover {
+    color: #375e97;
+}
